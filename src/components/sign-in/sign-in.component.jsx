@@ -5,7 +5,7 @@ import FormInput from "../form-input/form-input.component";
 import CustomButton from "../custom-button/custom-button.component";
 import { signInWithGoogle } from "../../firebase/firebase.utils";
 
-class SighIn extends React.Component {
+class SignIn extends React.Component {
   constructor(props) {
     super(props);
 
@@ -62,4 +62,4 @@ class SighIn extends React.Component {
   }
 }
 
-export default SighIn;
+export default SignIn;
